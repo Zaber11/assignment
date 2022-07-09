@@ -5,21 +5,23 @@ body {
     font-family: 'Nunito', sans-serif;
 }
 
-.BannerWrapper {
-    background-image: url(images/banner.jpg);
+.Banner-Wrapper {
+    background-image: url(donate-today-main/images/donation6.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     padding: 100px 0px;
 }
 
-.bannertextWrapper {
+.banner-text-Wrapper {
     width: 840px;
     margin: 20px auto;
     text-align: center;
+    color: orange;
+    background-image: red;
 }
 
-.bannertextWrapper p {
+.banner-text-Wrapper p {
     font-size: 18px;
     font-weight: 400;
     font-family: 'Poppins', sans-serif;
@@ -28,7 +30,7 @@ body {
     margin-bottom: 30px;
 }
 
-.bannertextWrapper h1 {
+.banner-text-Wrapper h1 {
     font-size: 65px;
     font-weight: 800;
     font-family: 'Inter', sans-serif;
@@ -37,7 +39,7 @@ body {
     margin-bottom: 0px;
 }
 
-.bannertextWrapper a {
+.banner-text-Wrapper a {
     margin-top: 20px;
     text-decoration: none;
     background-color: #ff5959;
@@ -50,18 +52,18 @@ body {
     border-radius: 5px;
 }
 
-.donatefieldWrapper {
+.donate-field-Wrapper {
     width: 800px;
     margin: 80px auto;
 }
 
-.donatefieldTitle {
+.donate-field-Title {
     text-align: center;
     width: 700px;
     margin: 0px auto;
 }
 
-.donatefieldTitle p {
+.donate-field-Title p {
     color: #707070;
     font-size: 18px;
     font-weight: 400;
@@ -69,7 +71,7 @@ body {
     margin-bottom: 30px;
 }
 
-.donatefieldTitle h1 {
+.donate-field-Title h1 {
     font-size: 45px;
     font-weight: 800;
     font-family: 'Inter', sans-serif;
@@ -78,7 +80,7 @@ body {
     margin-bottom: 0px;
 }
 
-.amountboxWrapper {
+.amount-box-Wrapper {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -108,11 +110,11 @@ body {
     color: #ff5959;
 }
 
-.inputAmount {
+.input-Amount {
     text-align: center;
 }
 
-.inputAmount input {
+.input-Amount input {
     width: 100%;
     border: 0px;
     height: 50px;
@@ -125,14 +127,14 @@ body {
     margin-bottom: 15px;
 }
 
-.inputAmount input::placeholder {
+.input-Amount input::placeholder {
     text-align: center;
     font-size: 18px;
     font-weight: 400;
     font-family: 'Poppins', sans-serif;
 }
 
-.inputAmount button {
+.input-Amount button {
     background-color: #ff5959;
     color: #fff;
     font-size: 18px;
@@ -145,25 +147,25 @@ body {
     cursor: pointer;
 }
 
-.donateplaneWrapper {
+.donate-plane-Wrapper {
     width: 1130px;
     margin: 90px auto;
 }
 
-.planeboxWrapper {
+.plane-box-Wrapper {
     display: flex;
     justify-content: space-between;
     margin: 30px 0px;
 }
 
-.planebox {
+.plane-box {
     width: 29%;
     padding: 30px 20px;
     border-radius: 6px;
 
 }
 
-.planebox h4 {
+.plane-box h4 {
     font-size: 24px;
     font-weight: 600;
     color: #121212;
@@ -171,42 +173,42 @@ body {
     line-height: 20px;
 }
 
-.planebox p {
+.plane-box p {
     font-size: 16px;
     font-weight: 400;
     color: #707070;
     font-family: 'Poppins', sans-serif;
 }
 
-#planebox_one {
+#plane-box_one {
     background-color: #4f9da621;
 }
 
-#planebox_two {
+#plane-box_two {
     background-color: #ff59591e;
 }
 
-#planebox_three {
+#plane-box_three {
     background-color: rgba(255, 244, 214, 1);
 }
 
-.donationBolgWrapper {
+.donation-Bolg-Wrapper {
     width: 1030px;
     margin: 40px auto;
 }
 
-.donationBlog {
+.donation-Blog {
     display: flex;
     justify-content: space-between;
     width: 100%;
     margin: 60px 0px;
 }
 
-.donationBlog_left {
+.donation-Blog_left {
     width: 46%;
 }
 
-.donationBlog_left p {
+.donation-Blog_left p {
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-weight: 400;
@@ -214,13 +216,13 @@ body {
     margin-bottom: 30px;
 }
 
-.donationBlog_left h2 {
+.donation-Blog_left h2 {
     font-family: 'Inter', sans-serif;
     font-size: 45px;
     font-weight: 700;
 }
 
-.donationBlog_left a {
+.donation-Blog_left a {
     background-color: #ff5959;
     color: #fff;
     font-size: 18px;
@@ -233,18 +235,18 @@ body {
     text-decoration: none;
 }
 
-.donationBlog_right {
+.donation-Blog_right {
     width: 45%;
 }
 
-.donationBlog_right img {
+.donation-Blog_right img {
     width: 100%;
     object-fit: cover;
     height: 100%;
     margin-top: 20px;
 }
 
-.contactWrapper {
+.contact-Wrapper {
     width: 800px;
     margin: 50px auto;
 }
@@ -286,7 +288,7 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
-.contactWrapper h1 {
+.contact-Wrapper h1 {
     font-size: 45px;
     font-weight: 700;
     text-align: center;
